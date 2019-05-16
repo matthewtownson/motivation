@@ -1,1 +1,1 @@
-python $HOME/.fun/.fun.py
+python $HOME/.fun/fun.py
