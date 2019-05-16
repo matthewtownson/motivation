@@ -10,7 +10,8 @@ Steps to new motivation:
 - Go to: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20 and make ASCII art. "small" is a good font to into 80 chars...
 - use zlib to hide the text:
     - `import zlib`
-    - ```zlib.compress("""
+    - ```
+    zlib.compress("""
             Your
             ASCII
             ART
