@@ -21,4 +21,3 @@ Steps to new motivation:
 - copy and paste into fun.py as a new msg
 - add new msg to msgs list
 
-- 
