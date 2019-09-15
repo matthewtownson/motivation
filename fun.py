@@ -2,11 +2,11 @@
 import numpy
 import zlib
 
-msg1 = 'x\x9ceQ\xc1\x11\xc3 \x0c\xfb3\x85\x7f\xa5\x8f\x9e\xb7\xc9\x8b;-\xe2\xe1+\t\x08\xbd\x14\x08\x11\x8e"[\xa6\x05\x10\x1e~/\xfc;Z\x0cN\x8e\x8c\x04*\x8aD\xe8\xf1\x1fB-D\xc9AB|\xf0\xe6\x0e.\xc6^\xfc\xe0\x10\x19\x18H/j\x10k!\t}@\xb5\x90\xb2\xe5\x8c|\x9a\xc7\xbb\x8e\x8a-,T\x94\x9f\xea\x87\x11[X\xe9$\xbe\xd4\xb7\x8c4\xf8\x7fbL`\xcb\xb2go\x8f,e\xcf\xa5\xc0\x88K\x04\xd4d\xa0\x92\xb5\x0f\xce\x92\x12\xc3Nv\xeaH\x05\xb4-!\xd5\xec\xde\x9d\x9eB\xb1\xceX\xa7\x81\x95\xb3\x8e\x88\xb2`\xb6\xcb\x86fG\x80~\xdbm\xffW\xf5\xbc\xb9/\xf0\xa1r\xb0'
+msg1 = "  _    _ _       _     _\n | |  | (_)     | |   | |\n | |__| |_  __ _| |__ | |_   _\n |  __  | |/ _` | '_ \| | | | |\n | |  | | | (_| | | | | | |_| |\n |_|  |_|_|\__, |_| |_|_|\__, |\n  _____ _ _ __/ |       _ __/ |     _\n |_   _| | |___/       (_)___/     | |\n   | | | | | ___   __ _ _  ___ __ _| |\n   | | | | |/ _ \ / _` | |/ __/ _` | |\n  _| |_| | | (_) | (_| | | (_| (_| | |_ _ _\n |_____|_|_|\___/ \__, |_|\___\__,_|_(_|_|_)\n                   __/ |\n                  |___/"
 
-msg2 = "x\x9cm\x901\x0e\xc30\x0c\x03\xf7\xbcB[\x13\xa0\x85\x7f\x93\xc9\xc0\xf5!z|I\xc9\xf5P\xd4\xb0\x1d\x11\x94I1G\x04\xb5\xff\xac#2R\x1b\x82>\xb8\xd1eq*F\xf0\x8e\x19\xb7\x8a\x17W\xc3\x14G&\x13\x9e\xe4d\xa8 \xa3\xe1Q\x02[\xd0h\x0b\x8b\x93\x80Z\x91\xa4\xbfC\x1a\xee\xc8\x9e\xe5DW\xf5\xa4\xaf\x98Y\xd8\xef\xca\x82\xf2d0\x84'_\xce\xe3\x9e\\6t\x98uV\xbe\x87Uzl\xd76cq\xce\xd0)v\x1e\xc9\xb4f\xaf\xb4\xdb\xcf?\xfb\x00\x9f\x1fT\xda"
+msg2 = "  ______ _   _  _____          _____ ______ _\n |  ____| \ | |/ ____|   /\   / ____|  ____| |\n | |__  |  \| | |  __   /  \ | |  __| |__  | |\n |  __| | . ` | | |_ | / /\ \| | |_ |  __| | |\n | |____| |\  | |__| |/ ____ \ |__| | |____|_|\n |______|_| \_|\_____/_/    \_\_____|______(_)"
 
-msg3 = 'x\x9cu\x8f\xc1\x0e\xc30\x08C\xef|\x85oM\xa4N\xfc\xcdN\x91\xbc\x0f\xe1\xe3g\xd3d\xb7\xa5j\x03\x18\x1en\x80\x04\x9eO\x9f_\x00\x04\x96\x9eDJU\x99\x03\xd3\x01\xdd\x1c\x90\xf4\x96H\xddU\xa8,\\L\xbc8\xad\xa1XK\x8d\xb9x\xb3\x9c\xc1iYc\x17\xc8\xc1\xf9p\xb9\x97\x86q\x9f\xc3\xc4\x85\xd5ym/\x14\xaa\x99\x14\xae\x1c\xdeGC\x9b:/\x1a\xff\xb8\x96\x96\xbd\xd1L\xdf\xa9A\xf7\xcbCh|\xb0\x19\xe9B/V\xddv\xfd\x7f6\xcc\xda;S\xf9\xa2\x07f\xe0\xff\xf9\x02K`Q\xe6'
+msg3 = " __     __         _            _____        _\n \ \   / /        ( )          |  __ \      (_)\n  \ \_/ /__  _   _|/ _ __ ___  | |  | | ___  _ _ __   __ _\n   \   / _ \| | | | | '__/ _ \ | |  | |/ _ \| | '_ \ / _` |\n    | | (_) | |_| | | | |  __/ | |__| | (_) | | | | | (_| |\n   _|_|\___/ \__,_| |_| _\___| |_____/ \___/|_|_| |_|\__, |\n  / ____|              | | | |                        __/ |\n | |  __ _ __ ___  __ _| |_| |                       |___/\n | | |_ | '__/ _ \/ _` | __| |\n | |__| | | |  __/ (_| | |_|_|\n  \_____|_|  \___|\__,_|\__(_)"
 
 msg4 = 'x\x9c}\x90Q\x0e\x82!\x0c\x83\xdf9E\xdf\x90D\xe5B$\xf5 ;\xbc]\x19>\xf8\x1bY\xd6@\xc6\xbeQ\x1a@\x12\xbfWCH\x17\x98\xc1\xcc\xda\x9eb\x0cI\xe7\xc4\x83\x03|\xe5!\xef\xbb\xa8\x86\x19\x0c,m\x94w\xc6\x8e\xea$o\x1c,\\\xe1\x15.v\n2\x13X\x92\xf8\xae\xd6\xc4>\xc55\x10G\x92*X;Vj\xb4\xe4jE@?\xf0\xe2\xd3VD\xf1\xbd\xaf"k\xa4\x14\xf5\x11;\xddI\x0c\x9d\x04fXvj\xca.\xae0\xf8\x08#\x07\xcc\x0f\xd6\x9f\xc3\xd86l\x85\xd9\xf9g\xb57\xa2\xe2h\x95'
 
@@ -47,28 +47,10 @@ msg19 = 'x\x9c\x85\x91Q\x0e\x84 \x0cD\xff9E\xff\\\x13\r\x17\xd8\xa34\x99=H\x0f\x
 
 msg20 = "x\x9cu\x91Q\x0e\x830\x0cC\xff{\n\xff\x01\x12,\x17\xd89\xf6U\xc9;H\x0f\xbf\xd8)\x9b\x98\xb6\x80\x9a\xa6n\xd3gh\x00\x15 \xbe\x82\x7f\xe6\x9fh\x18\x128\x9c\xab\t\x95Wl\xaa\xa0\x15\x8b\xf4r\xe9\xb5\xa5\xe5\xc1\xe1gA\x0f\x1c\xdc\xb0\xd09V\x1ew\x04\xf8L\xb1\xe3\x81|g5\x06$\xfa\xac\x1b\x8f\xc1\x9e\xcdT8#\x98Mr\xbak\xad3\xfc\xaa\xea\xdc-\xb6\xa2\xf2\xe5\t\xca\xad\xa8&x\x01\xea:+f\xf7\xc6(\xbf'G\xb2&\x9a\xab9\x94\x01I\xb2l\x0biL`\xe7\xb7*\x8elv\xcbv\xc2\xdeq\x0e\xac}\xe5I\x942\x96\x04\xef\xb3\xd7H\x1e\x86\x87\x9f\xbf\xe5\x12/\x17Xt?"
 
-msg21 = " __          __                              _           _                                     
- \ \        / /                             | |         | |                                    
-  \ \  /\  / /__    __ _ _ __ ___  __      _| |__   __ _| |_  __      _____    __ _ _ __ ___   
-   \ \/  \/ / _ \  / _` | '__/ _ \ \ \ /\ / / '_ \ / _` | __| \ \ /\ / / _ \  / _` | '__/ _ \  
-    \  /\  /  __/ | (_| | | |  __/  \ V  V /| | | | (_| | |_   \ V  V /  __/ | (_| | | |  __/_ 
-     \/  \/ \___| _\__,_|_|  \___|   \_/\_/ |_| |_|\__,_|\__|   \_/\_/ \___|  \__,_|_|  \___( )
-                 | |                             | |     (_)             | | | |            |/ 
-   __ _ _ __   __| | __      _____ _ __ ___    __| | ___  _ _ __   __ _  | |_| |__   ___       
-  / _` | '_ \ / _` | \ \ /\ / / _ \ '__/ _ \  / _` |/ _ \| | '_ \ / _` | | __| '_ \ / _ \      
- | (_| | | | | (_| |  \ V  V /  __/ | |  __/ | (_| | (_) | | | | | (_| | | |_| | | |  __/      
-  \__,_|_| |_|\__,_|   \_/\_/ \___|_|  \___|  \__,_|\___/|_|_| |_|\__, |  \__|_| |_|\___|      
- | |             | |                                               __/ |                       
- | |__   ___  ___| |_  __      _____    ___ __ _ _ __             |___/                        
- | '_ \ / _ \/ __| __| \ \ /\ / / _ \  / __/ _` | '_ \                                         
- | |_) |  __/\__ \ |_   \ V  V /  __/ | (_| (_| | | | |                                        
- |_.__/ \___||___/\__|   \_/\_/ \___|  \___\__,_|_| |_|                                        "
 
-msgs = [msg1, msg2, msg3, msg4, msg5, msg6, msg7, msg8, msg9, msg10, msg11, msg12, msg13, msg14, msg15, msg16, msg17, msg18, msg19, msg20]
+msgs = [msg1, msg2, msg3]
 
 
 msg = msgs[numpy.random.randint(len(msgs))]
-
-msg = zlib.decompress(msg)
 
 print(msg)
